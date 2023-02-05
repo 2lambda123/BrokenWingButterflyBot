@@ -44,6 +44,8 @@ plt.show()
 
 # create an instance of the exchange
 exchange = ccxt.kraken()
+exchange.apiKey = 'your_api_key'
+exchange.secret = 'your_api_secret'
 
 # define the order parameters
 symbol = "EUR/USD"
